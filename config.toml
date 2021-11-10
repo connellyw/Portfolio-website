@@ -1,76 +1,89 @@
-baseURL = "/"
-title = "My Portfolio Title"
-theme = "PaperMod"
+######################## default configuration ####################
+baseURL = "https://example.com"
+title = "Port Hugo"
+theme = "port-hugo"
 
-# Theme configuration
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "plugins/text-animation/text-animation.css"
+[[params.plugins.css]]
+link = "plugins/hugrid/hugrid.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "https://code.jquery.com/jquery-3.5.1.min.js"
+[[params.plugins.js]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+[[params.plugins.js]]
+link = "plugins/text-animation/text-animation.js"
+[[params.plugins.js]]
+link = "plugins/hugrid/hugrid.min.js"
+
+
+############################## navigation ###############################
+
+# main menu
+[[menu.main]]
+name = "Home"
+URL = "#home"
+weight = 1
+
+[[menu.main]]
+name = "About me"
+URL = "#about"
+weight = 2
+
+[[menu.main]]
+name = "Portfolio"
+URL = "#portfolio"
+weight = 3
+
+
+#################### default parameters ################################
 [params]
-env = "production"
-author = "<author>"
-description = "Portfolio description"
-keywords = ["Blog", "Portfolio", "PaperMod"]
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-disableScrollToTop = false
+logo_light = "images/logo.svg"
+logo_dark = "images/logo-dark.svg"
+copyright = "Copyright Burton Guster &copy;"
+# Meta data
+description = "Personal Portfolio"
+author = "Burton Guster"
+favicon = "images/favicon.png"
+google_analytics = "G-ABCDEFG123"
 
-[params.label]
-text = "Home"
-icon = "/profile.png"
-iconHeight = 24
 
-[params.profileMode]
-enabled = true
-title = "Jane Doe"
-subtitle = "I am a Person"
-imageUrl = "profile.png"
-imageWidth = 120
-imageHeight = 120
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
-[[params.profileMode.buttons]]
-name = "tags"
-url = "/tags/"
+############################# social site ########################
 
-[[params.profileMode.buttons]]
-name = "puppies"
-url = "https://google.com/search?tbm=isch&q=puppies"
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/tylerjlawson"
 
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com/"
+[[params.social]]
+icon = "fab fa-linkedin"
+link = "https://www.linkedin.com/"
 
-[[params.socialIcons]]
-name = "instagram"
-url = "https://instagram.com/"
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:guster@burton.com"
 
-[[params.socialIcons]]
-name = "stackoverflow"
-url = "https://stackoverflow.com"
+[[params.social]]
+icon = "fab fa-medium"
+link = "https://medium.com/@gusburton"
 
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/"
-
-[[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/"
-
-[[menu.main]]
-identifier = "blog"
-name = "blog"
-url = "/blog/"
-weight = 10
-
-[[menu.main]]
-identifier = "projects"
-name = "projects"
-url = "/projects/"
-weight = 20
-
-[[menu.main]]
-identifier = "link"
-name = "A link"
-url = "https://google.com/search?tbm=isch&q=cute%20puppies"
-weight = 30
+contentDir = "content/english"
+weight = 1
+home = "Home"
