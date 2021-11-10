@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://example.com"
+baseURL = "https://williamconnelly.netlify.app"
 title = "Port Hugo"
-theme = "port-hugo-master"
+theme = "port-hugo"
 
 ############################# Plugins ##############################
 
