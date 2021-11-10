@@ -1,12 +1,12 @@
 ########################## hero area ##########################
 hero:
-  title: "I'm Burton Guster"
+  title: "I'm William Connelly"
 
   # animated text loop
   occupations:
-    - 'Web Developer'
-    - 'Pharmaceutical Salesman'
-    - 'Private Detective'
+    - 'Python Developer'
+    - 'Computer Enthusiast'
+    - 'Data Researcher'
 
   # hero background image
   bg_image: 'images/background.jpg'
