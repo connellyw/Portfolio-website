@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://williamconnelly.netlify.app"
-title = "Port Hugo"
+title = "Portfolio Website"
 theme = "port-hugo"
 
 ############################# Plugins ##############################
@@ -74,7 +74,7 @@ link = "https://github.com/connellyw"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/"
+link = "https://www.linkedin.com/in/william-connelly-7a3684222/"
 
 [[params.social]]
 icon = "fas fa-envelope"
