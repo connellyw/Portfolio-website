@@ -33,7 +33,9 @@ experience:
     - name: PyGo-Portfolio-Tracker
       company: Scrum Lead
       duration: '4/2020-5/2020'
-      content: •Worked as a scrum lead of a team of five people to add linting functionalities.\n•Added ease of use features like clearing and saving portfolio to file.\n•Fixed and revised program to display the images correctly using Streamlit.
+      content: | •Worked as a scrum lead of a team of five people to add linting functionalities.
+      •Added ease of use features like clearing and saving portfolio to file.
+      •Fixed and revised program to display the images correctly using Streamlit.
 
     - name: Gator Minor
       company: Scrum Lead
