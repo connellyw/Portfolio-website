@@ -30,20 +30,26 @@ experience:
   enable: true
   title: 'PROJECTS'
   experience_list:
-    - name: Web Developer
-      company: Freelance
-      duration: '2020-Current'
-      content: I make websites.
+    - name: PyGo-Portfolio-Tracker
+      company: Scrum Lead
+      duration: '4/2020-5/2020'
+      content: •Worked as a scrum lead of a team of five people to add linting functionalities.
+•Added ease of use features like clearing and saving portfolio to file.
+•Fixed and revised program to display the images correctly using Streamlit
 
-    - name: Private Detective
-      company: Psych
-      duration: '2019-2020'
-      content: Okay. This is hard to explain but I’m going to give it a shot. You and I are opening our own private detective agency.
+    - name: Gator Minor
+      company: Scrum Lead
+      duration: '4/2020-5/2020'
+      content: • with five people with Poetry to automate the continuous deployment of GatorMiner.
+•Implemented error checking to the program automatically.
+•Overhauled method of creating files and saving them with the program.
 
-    - name: Pharmaceutical Salesman
-      company: South Coast Pharmaceuticals
-      duration: '2012-2018'
-      content: We are not bounty hunters, Shawn. I am a pharmaceutical salesman. And Lassiter made it very clear! He said in no uncertain terms. These are certain terms, Shawn! Certain terms!
+    - name: Jellyfish Protein Research
+      company: Head Researcher
+      duration: '5/2021'
+      content: •Manipulated DNA sequences to research protein to protein interactions with models.
+•Search through 500+ DNA sequences to determine similar protein sequences
+•Created protein models to show the protein replication and interaction
 
 ############################### Skill #################################
 skill:
