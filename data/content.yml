@@ -33,19 +33,17 @@ experience:
     - name: PyGo-Portfolio-Tracker
       company: Scrum Lead
       duration: '4/2020-5/2020'
-      content: | •Worked as a scrum lead of a team of five people to add linting functionalities.
-      •Added ease of use features like clearing and saving portfolio to file.
-      •Fixed and revised program to display the images correctly using Streamlit.
+      content: •Worked as a scrum lead of a team of five people to add linting functionalities. Also added ease of use features like clearing and saving portfolio to file. Worked to fix and revise program to display the images correctly using Streamlit.
 
     - name: Gator Minor
       company: Scrum Lead
       duration: '4/2020-5/2020'
-      content: • with five people with Poetry to automate the continuous deployment of GatorMiner.\n•Implemented error checking to the program automatically.\n•Overhauled method of creating files and saving them with the program.
+      content: Worked with five people with Poetry to automate the continuous deployment of GatorMiner. Implemented error checking to the program automatically. Also, overhauled method of creating files and saving them with the program.
 
     - name: Jellyfish Protein Research
       company: Head Researcher
       duration: '5/2021'
-      content: •Manipulated DNA sequences to research protein to protein interactions with models.\n•Search through 500+ DNA sequences to determine similar protein sequences.\n•Created protein models to show the protein replication and interaction.
+      content: Manipulated DNA sequences to research protein to protein interactions with models. Searched through 500+ DNA sequences to determine similar protein sequences and created protein models to show the protein replication and interaction.
 
 ############################### Skill #################################
 skill:
@@ -54,7 +52,7 @@ skill:
   showpercent: false
   skill_list:
     - name: 'Python'
-      percentage: '85%'
+      percentage: '75%'
 
     - name: 'C'
       percentage: '50%'
@@ -96,6 +94,6 @@ portfolio:
       url: https://gohugo.io
       description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
 
-    - name: Just A Design
-      image: 'images/portfolio/design.png'
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    - name: Jellyfish Protein Research 
+      image: 'images/portfolio/protien.png'
+      description: My motivation for doing this research project was to possibly discover a new treatment for diseases. I wanted to see how regenerative genes in jellyfish interacted with human proteins.  This type of research could potentially lead to ways that gene therapy could treat diseases.  Studying regenerative genes could potentially help with degenerative diseases.  Huntington’s disease and other degenerative diseases could be fixed with a breakthrough in this field of bioinformatics.  Before I continued with my, project I first had to do some additional background research.  I first wanted to see what similar work was already being done in the field.  The first study that introduced me to this being a possibility was Pattern regulation in a regenerating jellyfish. (elife sciences)  This study talked about how jellyfish could regenerate structures in its body. I wanted to look for genes that were responsible for this function.  I found one study, The Sine oculis/Six class family of homeobox genes in jellyfish with and without eyes, development and eye regeneration, which talked about how different gene expressions can cause different types of cell growth.(science direct)  I decided that I would be focusing on the findings of the one study, Regenerative Capacity of the Upside-down Jellyfish Cassiopea xamachana. (NCBI)  This research article found the gene they found responsible for regeneration in the cells in one type of jellyfish.  A couple of types of genes were identified in the study to be linked to the different types of cell regeneration in jellyfish.  A link to Genbank was provided in the study to the protein sequence.

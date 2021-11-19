@@ -80,10 +80,6 @@ link = "https://www.linkedin.com/in/william-connelly-7a3684222/"
 icon = "fas fa-envelope"
 link = "mailto:williamconnelly99@gmail.com"
 
-[[params.social]]
-icon = "fab fa-medium"
-link = "https://medium.com/@gusburton"
-
 contentDir = "content/english"
 weight = 1
 home = "Home"
