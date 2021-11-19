@@ -11,14 +11,14 @@ hero:
   # hero background image
   bg_image: 'images/background.jpg'
   # optional mobile breakpoint background
-  mobile_bg_image: 'images/gus_small.jpg'
+  mobile_bg_image: 'images/background.jpg'
 
 ########################### About ##################################
 about:
   enable: true
   image: 'images/profile.jpg'
-  title: 'WELCOME TO MY SITE'
-  content: Hi, thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
+  title: 'HELLO THERE'
+  content: Looking to establish a career in the field of software engineering, I wish to work in a growth oriented company and contribute to the development of the organization while upgrading my skill set and knowledge. Thank you for taking a look around my site. If you have any questions feel free to reach out on [LinkedIn, Github, or by email](#contact)!
   button:
     enable: true
     label: 'DOWNLOAD MY RESUME'
@@ -33,7 +33,7 @@ experience:
     - name: PyGo-Portfolio-Tracker
       company: Scrum Lead
       duration: '4/2020-5/2020'
-      content: •Worked as a scrum lead of a team of five people to add linting functionalities. Also added ease of use features like clearing and saving portfolio to file. Worked to fix and revise program to display the images correctly using Streamlit.
+      content: Worked as a scrum lead of a team of five people to add linting functionalities. Also added ease of use features like clearing and saving portfolio to file. Worked to fix and revise program to display the images correctly using Streamlit.
 
     - name: Gator Minor
       company: Scrum Lead
@@ -71,7 +71,7 @@ funfacts:
       image: 'images/icons/coffee.png'
       count: '2'
 
-    - name: 'SITES BUILT'
+    - name: 'PROJECTS WORKED ON'
       image: 'images/icons/web-development.png'
       count: '25'
 
@@ -84,16 +84,17 @@ portfolio:
   enable: true
   title: 'MY WORK'
   portfolio_list:
-    - name: Hugo
-      image: 'images/portfolio/hugo.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    - name: PyGo Portfolio Builder
+      image: 'images/portfolio/pygo.png'
+      url: https://github.com/connellyw/PyGo-Portfolio-Tracker
+      description: Our program design is the combining structure of Golang and Python. There are three main files in our tool, which are portfolio.go, stockHandler.go, and web_interface.py. Additionally, out test cases are in portfolio_test.go. While portfolio.go and stockHandler.go are served as the back-end of the program, web_interface.py is the front-end. The motivation behind this project is to facilitate tracking and organizing an investment portfolio to equip the user with the most up to date information in order to make the best investment decisions. We were in need of tools like this since we started making investments and we thought it would be great to make one ourselves. The overall goal of this tool is to track a set of stock market positions for multiple portfolios, store the data, and display it using meaningful graphs and charts. In this tool, there are numbers of packages that are installed to support the program. For Golang, piquette/finance-go package is used to get access to the latest stock data.
 
-    - name: Hugo Themes
-      image: 'images/portfolio/hugothemes.png'
-      url: https://gohugo.io
-      description: Commodo non mollit commodo esse. Quis ad Lorem eiusmod ad velit Lorem sint elit. Anim magna duis et duis pariatur eiusmod laboris esse. Sit duis labore sit esse enim laborum nisi sunt magna sint labore tempor. Sit sit sint eu laboris officia et sunt consequat sit excepteur nostrud eu. Fugiat aliqua id et pariatur quis commodo aute aliqua et magna officia eu cillum mollit. Sint culpa excepteur culpa culpa sint est eu dolore culpa duis adipisicing proident.
+    - name: Gator Miner
+      image: 'images/portfolio/gatorminer.png'
+      url: https://github.com/connellyw/PyGo-Portfolio-Tracker
+      description: An automated text-mining tool written in Python to measure the technical responsibility of students in computer science courses, being used to analyze students' markdown reflection documents and five questions survey based on Natural Language Processing in the Department of Computer Science at Allegheny College.
 
     - name: Jellyfish Protein Research 
       image: 'images/portfolio/protien.png'
+      url: https://github.com/Allegheny-Computer-Science-300-S2021/project-liam
       description: My motivation for doing this research project was to possibly discover a new treatment for diseases. I wanted to see how regenerative genes in jellyfish interacted with human proteins.  This type of research could potentially lead to ways that gene therapy could treat diseases.  Studying regenerative genes could potentially help with degenerative diseases.  Huntington’s disease and other degenerative diseases could be fixed with a breakthrough in this field of bioinformatics.  Before I continued with my, project I first had to do some additional background research.  I first wanted to see what similar work was already being done in the field.  The first study that introduced me to this being a possibility was Pattern regulation in a regenerating jellyfish. (elife sciences)  This study talked about how jellyfish could regenerate structures in its body. I wanted to look for genes that were responsible for this function.  I found one study, The Sine oculis/Six class family of homeobox genes in jellyfish with and without eyes, development and eye regeneration, which talked about how different gene expressions can cause different types of cell growth.(science direct)  I decided that I would be focusing on the findings of the one study, Regenerative Capacity of the Upside-down Jellyfish Cassiopea xamachana. (NCBI)  This research article found the gene they found responsible for regeneration in the cells in one type of jellyfish.  A couple of types of genes were identified in the study to be linked to the different types of cell regeneration in jellyfish.  A link to Genbank was provided in the study to the protein sequence.
