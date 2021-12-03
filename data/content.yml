@@ -69,7 +69,6 @@ funfacts:
   funfacts_list:
     - name: 'CLASS OF 2023 AT ALLEGHENY COLLEGE'
       image: 'images/icons/coffee.png'
-      count: '2'
 
     - name: 'PROJECTS WORKED ON'
       image: 'images/icons/web-development.png'
