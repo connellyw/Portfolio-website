@@ -67,8 +67,9 @@ skill:
 funfacts:
   enable: true
   funfacts_list:
-    - name: 'CLASS OF 2023 AT ALLEGHENY COLLEGE'
+    - name: 'CLASS AT ALLEGHENY COLLEGE'
       image: 'images/icons/coffee.png'
+      count: '2023'
 
     - name: 'PROJECTS WORKED ON'
       image: 'images/icons/web-development.png'
@@ -92,5 +93,5 @@ portfolio:
 
     - name: Jellyfish Protein Research 
       image: 'images/portfolio/protien.png'
-      url: https://github.com/Allegheny-Computer-Science-300-S2021/project-liam
+      url: https://github.com/connellyw/Jellyfish-P2P-Interaction-Study/tree/main
       description: My motivation for doing this research project was to possibly discover a new treatment for diseases. I wanted to see how regenerative genes in jellyfish interacted with human proteins.  This type of research could potentially lead to ways that gene therapy could treat diseases.  Studying regenerative genes could potentially help with degenerative diseases.  Huntington’s disease and other degenerative diseases could be fixed with a breakthrough in this field of bioinformatics.  I first wanted to see what similar work was already being done in the field.  I looked at studies that talked about how jellyfish could regenerate structures in its body. I wanted to look for genes that were responsible for this function.  I found one study, The Sine oculis/Six class family of homeobox genes in jellyfish with and without eyes, development and eye regeneration, which talked about how different gene expressions can cause different types of cell growth. I decided that I would be focusing on the findings of the one study, Regenerative Capacity of the Upside-down Jellyfish Cassiopea xamachana. (NCBI)  This research article found the gene they found responsible for regeneration in the cells in one type of jellyfish.  A couple of types of genes were identified in the study to be linked to the different types of cell regeneration in jellyfish.  A link to Genbank was provided in the study to the protein sequence.
